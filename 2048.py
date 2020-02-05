@@ -1,5 +1,3 @@
-# -*- coding: utf-8 -*-
-
 import curses
 from random import randrange, choice  # generate and place new tile
 from collections import defaultdict
