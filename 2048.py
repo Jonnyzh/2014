@@ -1,6 +1,6 @@
 import curses
-from random import randrange, choice  # generate and place new tile
 from collections import defaultdict
+from random import choice, randrange  # generate and place new tile
 
 letter_codes = [ord(ch) for ch in 'WASDRQwasdrq']
 # print(letter_codes)
